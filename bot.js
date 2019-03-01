@@ -7,7 +7,7 @@ client.on("ready", () => {
 let channel =     client.channels.get("550788200361361421")
 setInterval(function() {
 channel.send(`بيسان`);
-}, 8000000)
+}, 1)
 })
 
 client.login(process.env.BOT_TOKEN);
